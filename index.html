@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review Session</title>
-    <link href="./index.css" rel="stylesheet"/>
+    <link href="./index.css" rel="stylesheet" />
 </head>
+
 <body>
+    <!-- Lets make a airplane ticket checkout website to review concepts -->
+
+    <!-- Welcome to the user signed in -->
+    <h2 id="welcome-message">Welcome customerX</h2>
+
+    <!-- Tickets in your cart -->
+    <ul>
+        <!-- 
+            origin: houston
+            destination: florida 
+            customer: jonathon
+            flightTime: 2 hours
+            priceUSD: 500 
+        -->
+        <li>
+            <div>
+                <h3>From: Houston</h3>
+                <h3>To: Florida</h3>
+            </div>
+            <h4>Customer: Jonathon</h4>
+            <h4>Flight Duration: 2 hours</h4>
+            <div>
+                Price (USD) $500
+            </div>
+        </li>
+        <!-- 
+            origin: Reykvik
+            destination: Sydney 
+            customer: caleb
+            flightTime: 9 hours
+            priceUSD: 1200
+        -->
+        <li>
+            <div class="flight">
+                <h3>From: Reykvik</h3>
+                <h3>To: Sydney</h3>
+            </div>
+            <h4>Customer: Caleb</h4>
+            <h4>Flight Duration: 9 hours</h4>
+            <div>
+                Price (USD) $1200
+            </div>
+        </li>
+    </ul>
+    <!-- A ticket has a origin destination, customer, flightTime  -->
+    <!-- Calculate the prices of those tickets -->
+    <h2 id="total-price">Total Price: calculate this</h2>
+    <button id="submit-button">Submit Payment</button>
+
+    <!-- Load scripts at botttom so that html is defined first -->
     <script src="./index.js"></script>
-    <!-- Lets make a pets adoption website to review concepts -->
 </body>
+
 </html>
